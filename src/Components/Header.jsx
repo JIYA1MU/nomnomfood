@@ -12,11 +12,11 @@ const Header = () => {
 
   return (
     <div className="h-20 flex justify-between items-center px-32 fixed inset-0 bg-white z-50 shadow-md">
-      <Link to="/NomNomFoods">
+      <Link to="/nomnomfood">
         <img
           className="w-20 h-auto fixed top-0"
           src="./Images/Logo.png"
-          alt="NomNomFoods"
+          alt="nomnomfood"
         />
       </Link>
       <div className="flex items-center">
@@ -24,7 +24,7 @@ const Header = () => {
           <li className="">
             <Link
               className="text-[#3d4152] hover:text-[#fc8019] transition-all duration-300 no-underline flex p-4"
-              to="/NomNomFoods"
+              to="/nomnomfood"
             >
               <span className="pt-1 pr-1 scale-150">
                 <IoIosSearch />
@@ -35,7 +35,7 @@ const Header = () => {
           <li>
             <Link
               className="text-[#3d4152] transition-all duration-300 hover:text-[#fc8019] no-underline flex p-4"
-              to="/NomNomFoods/about"
+              to="/nomnomfood/about"
             >
               <span>
                 <IoHelpBuoyOutline className="pt-1 pr-1 scale-150" />
@@ -46,7 +46,7 @@ const Header = () => {
           <li>
             <Link
               className="text-[#3d4152] transition-all duration-300 hover:text-[#fc8019] no-underline flex p-4"
-              to="/NomNomFoods/contact"
+              to="/nomnomfood/contact"
             >
               <span>
                 <FiUser className="pt-1 pr-1 scale-150" />
@@ -57,7 +57,7 @@ const Header = () => {
           <li>
             <Link
               className="text-[#3d4152] transition-all duration-300 hover:text-[#fc8019] no-underline flex p-4"
-              to="/NomNomFoods/cart"
+              to="/nomnomfood/cart"
             >
               <span>
                 <FiShoppingCart className="pt-1 pr-1 scale-150" />

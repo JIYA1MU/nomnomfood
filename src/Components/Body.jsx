@@ -10,7 +10,7 @@ import Search from "./Search";
 // Constants
 import { MENU_FOOD_IMG } from "../../utils/constants";
 
-// import resList from "../utils/config";            //enable this to use hard coded restaurant list data in case of API faliure
+// import { resList } from "../../utils/config";            //enable this to use hard coded restaurant list data in case of API faliure
 
 const Body = () => {
   const {
