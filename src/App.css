@@ -1,0 +1,34 @@
+@import url("./Styles/_Shimmer.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.app {
+  margin: 6rem 1vw;
+}
+
+.carousel .control-dots .dot{
+  width: 16px !important;
+  height: 3px !important;
+  border-radius: 0 !important;
+}
+
+.origin-custom {
+  transform-origin: center 5px; /* Adjust the Y value (5px) as needed */
+}
