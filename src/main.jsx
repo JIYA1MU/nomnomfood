@@ -16,27 +16,27 @@ const Cart = lazy(()=>import("./Components/Cart.jsx"))
 
 const appRouter = createBrowserRouter([
   {
-    path: "/NomNomFoods",
+    path: "/nomnomfood",
     element: <App />,
     children: [
       {
-        path: "/NomNomFoods",
+        path: "/nomnomfood",
         element: <Body />,
       },
       {
-        path: "/NomNomFoods/about",
+        path: "/nomnomfood/about",
         element: <Suspense><About /></Suspense> ,
       },
       {
-        path: "/NomNomFoods/contact",
+        path: "/nomnomfood/contact",
         element: <Suspense><Contact /></Suspense>,
       },
       {
-        path: "/NomNomFoods/restaurants/:resId",
+        path: "/nomnomfood/restaurants/:resId",
         element: <Suspense > <RestaurantMenu /></Suspense>,
       },
       {
-        path: "/NomNomFoods/cart",
+        path: "/nomnomfood/cart",
         element: <Suspense><Cart /></Suspense>,
       },
     ],
